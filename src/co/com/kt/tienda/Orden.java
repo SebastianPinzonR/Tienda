@@ -9,5 +9,5 @@ package co.com.kt.tienda;
  * @author SEBASTIAN
  */
 public class Orden {
-    //4545456
+    //45
 }
