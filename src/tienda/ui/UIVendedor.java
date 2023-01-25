@@ -71,7 +71,7 @@ public class UIVendedor extends javax.swing.JFrame {
 
         jLabel2.setText("Codigo de Vendedor");
 
-        jLabel3.setText("Nombre de Vendeor");
+        jLabel3.setText("Nombre de Vendedor");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
