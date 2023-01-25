@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package co.com.kt.tienda;
+package tienda.dao;
 
 /**
  *
  * @author SEBASTIAN
  */
-public class Producto {
-    //65
+public class VentasRegistradasDao {
+    
 }
