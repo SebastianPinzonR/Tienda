@@ -32,7 +32,7 @@ public class UIProductos extends javax.swing.JFrame {
         idDatos_productos = new javax.swing.JTextField();
         DescripcionProducto = new javax.swing.JTextField();
         PrecioProducto = new javax.swing.JTextField();
-        Crear = new javax.swing.JButton();
+        adicionar = new javax.swing.JButton();
         Catalogo = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
@@ -67,10 +67,10 @@ public class UIProductos extends javax.swing.JFrame {
             }
         });
 
-        Crear.setText("Crear");
-        Crear.addActionListener(new java.awt.event.ActionListener() {
+        adicionar.setText("Crear");
+        adicionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CrearActionPerformed(evt);
+                adicionarActionPerformed(evt);
             }
         });
 
@@ -130,7 +130,7 @@ public class UIProductos extends javax.swing.JFrame {
                                     .addComponent(PrecioProducto, javax.swing.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
                                     .addComponent(Cantidad)))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(Crear)
+                                .addComponent(adicionar)
                                 .addGap(18, 18, 18)
                                 .addComponent(Catalogo)
                                 .addGap(18, 18, 18)
@@ -171,7 +171,7 @@ public class UIProductos extends javax.swing.JFrame {
                     .addComponent(Cantidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Crear)
+                    .addComponent(adicionar)
                     .addComponent(Catalogo)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -189,9 +189,9 @@ public class UIProductos extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_DescripcionProductoActionPerformed
 
-    private void CrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrearActionPerformed
+    private void adicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adicionarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_CrearActionPerformed
+    }//GEN-LAST:event_adicionarActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
@@ -244,10 +244,10 @@ public class UIProductos extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JTextField Cantidad;
     public javax.swing.JButton Catalogo;
-    public javax.swing.JButton Crear;
     public javax.swing.JTextField DescripcionProducto;
     public javax.swing.JTextField Nombre;
     public javax.swing.JTextField PrecioProducto;
+    public javax.swing.JButton adicionar;
     public javax.swing.JTextField idDatos_productos;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;

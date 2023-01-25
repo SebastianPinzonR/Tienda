@@ -13,20 +13,11 @@ import java.sql.SQLException;
  * @author SEBASTIAN
  */
 public class Conexion {
-    private static final String driver = "com.mysql.jdbc.Driver";
-    private static final String bbdd = "jdbc:mysql://localhost:3306/Tienda";
+    private static final String driver = "com.mysql.cj.jdbc.Driver";
+    private static final String bbdd = "jdbc:mysql://localhost:3306/tienda";
     private static final String usuario = "root";
     private static final String clave = "23Basesdedatos45?";
-    private static Connection conexion;
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    public static Connection conexion;        
     
     public static Connection Conectar(){
         conexion = null;
